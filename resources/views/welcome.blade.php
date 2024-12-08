@@ -396,12 +396,6 @@
     </script>
     <script id="jquery-migrate-js" type="text/javascript" defer
         src="wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-    <script type="text/javascript" id="wpml-cookie-js-extra">
-        /* <![CDATA[ */
-var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
-var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
-/* ]]> */
-    </script>
     <script id="wpml-cookie-js" type="text/javascript" defer
         src="wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=4.6.2"
         id="wpml-cookie-js"></script>
@@ -425,25 +419,28 @@ var whp_local_data = {"add_url":"https:\/\/mentormate.com\/wp-admin\/post-new.ph
     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
         href="./wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmentormate.com%2F&#038;format=xml" />
     <meta name="generator" content="WPML ver:4.6.2 stt:7,1,2,67;" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=dLBrRJAbxG">
-    <link rel="icon" type="image/png" href="./favicon-32x32.png?v=dLBrRJAbxG" sizes="32x32">
-    <link rel="icon" type="image/png" href="./favicon-16x16.png?v=dLBrRJAbxG" sizes="16x16">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16">
     <link rel="manifest" href="./manifest.json?v=dLBrRJAbxG">
     <link rel="mask-icon" href="./safari-pinned-tab.svg?v=dLBrRJAbxG" color="#03a8f5">
-    <link rel="shortcut icon" href="./favicon.ico?v=dLBrRJAbxG">
+    <link rel="shortcut icon" href="/favicon.png">
     <meta name="theme-color" content="#ffffff">
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
 
-    <link rel="icon" href="wp-content/uploads/2021/10/cropped-favicon-32x32-1-80x80.png" sizes="32x32" />
-    <link rel="icon" href="wp-content/uploads/2021/10/cropped-favicon-32x32-1-300x300.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="wp-content/uploads/2021/10/cropped-favicon-32x32-1-300x300.png" />
-    <meta name="msapplication-TileImage" content="wp-content/uploads/2021/10/cropped-favicon-32x32-1-300x300.png" />
+    <link rel="icon" href="/favicon.png" sizes="32x32" />
+    <link rel="icon" href="/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <meta name="msapplication-TileImage" content="/favicon.png" />
 
 
 
 
     <meta name="ahrefs-site-verification" content="aa548cddbbfb9ab14a0d462a7d0fd5dca5cc2e3e31163400cefcb0af9cc1e12f">
     <style>
+
+       
+
         .otgs-development-site-front-end {
             display: none !important;
         }
@@ -546,6 +543,10 @@ border-left: 7px solid white;
         src="wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0"
         id="wpb_composer_front_js-js"></script>
     <style>
+
+
+
+        
         .otgs-development-site-front-end a {
             color: white;
         }
