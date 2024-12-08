@@ -461,6 +461,8 @@ var whp_local_data = {"add_url":"https:\/\/mentormate.com\/wp-admin\/post-new.ph
         .o-row--bg-gray::after {
             height: 27%;
         }
+
+
     </style>
     <noscript>
         <style>
@@ -469,6 +471,20 @@ var whp_local_data = {"add_url":"https:\/\/mentormate.com\/wp-admin\/post-new.ph
             }
         </style>
     </noscript>
+
+    <style>
+                h3.why-choose{
+padding: 0 500px 0 10px;
+border-left: 7px solid white;
+}
+
+@media (max-width: 899px) {
+    h3.why-choose{
+padding: 0 10px;
+border-left: 7px solid white;
+}
+}
+    </style>
 </head>
 
 <body
