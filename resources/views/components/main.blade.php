@@ -383,6 +383,8 @@
         </div>
     </div>
 </section>
+
+
 <section class="o-section o-row homepage-stats-section o-row--width-full s-color-scheme">
     <div class="o-row homepage-map-holder-div o-row--width-normal s-color-scheme">
         <div class="o-container o-container--width-normal o-container--width-same">
@@ -439,7 +441,9 @@
                     <h4 class="  c-headings-block__main h2">SIGN UP </h4>
                     <div class=" c-headings-block__sub">
                         </p>
-                        <h5>Years in business</h5>
+                        <p>Create an account and start your journey toward NEET 2025 success. Get access to expert
+                            mentors, personalized guidance, and structured preparation strategies that ensure your goals
+                            are within reach.</p>
                         <p>
                     </div>
                 </div>
@@ -450,7 +454,8 @@
                         Choose Mentor</h4>
                     <div class=" u-font-size-extra-large c-headings-block__sub">
                         </p>
-                        <h5>Time zones</h5>
+                        <p>Select from a team of top mentors from top prestigious medical colleges. They understand your
+                            challenges and provide insights, motivation, and strategies to excel in NEET 2025.</p>
                         <p>
                     </div>
                 </div>
@@ -461,7 +466,9 @@
                         Choose Date & Time</h4>
                     <div class=" u-font-size-extra-large c-headings-block__sub">
                         </p>
-                        <h5>Employees</h5>
+                        <p>Schedule your sessions at your convenience. Whether it's early mornings or late nights, we
+                            adapt to your availability to ensure you stay on track without compromising your routine.
+                        </p>
                         <p>
                     </div>
                 </div>
@@ -472,7 +479,9 @@
                         Payment </h4>
                     <div class=" u-font-size-extra-large c-headings-block__sub">
                         </p>
-                        <h5>Countries</h5>
+                        <p>Choose a plan that works for you with flexible payment options. Affordable rates designed to
+                            ensure every aspiring NEET candidate gets access to world-class mentorship without breaking
+                            the bank.</p>
                         <p>
                     </div>
                 </div>
