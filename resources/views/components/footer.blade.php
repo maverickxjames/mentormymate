@@ -9,8 +9,8 @@
                         <div class="o-col-12">
                             <div class="footer-logo">
                                 <div>
-                                    <img
-                                        src="wp-content/themes/mentormate-2021/build/images/logo-mentormate-tietoevry.svg">
+                                    <img style="border-radius: 5px"
+                                        src="logo_black.png">
                                 </div>
                                 <div class="footer-social-holder">
 
@@ -31,7 +31,7 @@
                                             <li id="menu-item-19659"
                                                 class="c-menu-sotsial--nstgrm c-menu-sotsial__item c-menu-sotsial__item--19659 c-menu-sotsial__item--custom">
                                                 <a target="_blank" rel="noopener"
-                                                    href="https://www.instagram.com/mentormate/">Instagram</a>
+                                                    href="https://www.instagram.com/mentormymate/">Instagram</a>
                                             </li>
                                             <li id="menu-item-19656"
                                                 class="c-menu-sotsial--fcbk c-menu-sotsial__item c-menu-sotsial__item--19656 c-menu-sotsial__item--custom">
@@ -65,7 +65,7 @@
                                             Kota,Rajasthan
                                             
                                         </a><br>
-                                        <span><a href="tel:+595213279463">+91 456 789 1234</a></span>
+                                        <span><a href="mailto:support@mentormymate.com">support@mentormymate.com</a></span>
                                     </div>
                                 </section>
                             </div>
@@ -78,9 +78,9 @@
                     <div class="o-col-12">
                         <div class="c-nav-legal-items">
                             <div class="c-nav-legal__copyright">
-                                <p>Copyright © 2024 MentorMate, LLC</p>
+                                <p>Copyright © 2024 MentorMyMate, LLC</p>
                             </div>
-                            <ul id="menu-legal-items" class="c-menu-legal o-menu">
+                            {{-- <ul id="menu-legal-items" class="c-menu-legal o-menu">
                                 <li id="menu-item-25577"
                                     class="c-menu-legal__item c-menu-legal__item--25577 c-menu-legal__item--page"><a
                                         href="cookie-policy/">About Us</a></li>
@@ -98,7 +98,7 @@
                                     class="c-menu-legal__item c-menu-legal__item--26146 c-menu-legal__item--custom"><a
                                         href="wp-content/uploads/2023/05/MentorMate-Business-Continuity-Policy-05.2023.pdf">Contact Us
                                         </a></li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>

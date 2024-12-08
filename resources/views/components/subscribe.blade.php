@@ -78,8 +78,8 @@
                                     class="hs_us__inquiry_type hs-us__inquiry_type hs-fieldtype-select field hs-form-field hs-form__field hs-form__field--select-one has-value">
                                     <label id="label-us__inquiry_type-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"
                                         class="" placeholder="Enter your Inquiry Type"
-                                        for="us__inquiry_type-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>Inquiry
-                                            Type</span><span class="hs-form-required">*</span></label>
+                                        for="us__inquiry_type-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>College
+                                            Name</span><span class="hs-form-required">*</span></label>
                                     <legend class="hs-field-desc" style="display: none;"></legend>
                                     <div class="input"><select
                                             id="us__inquiry_type-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" required=""
