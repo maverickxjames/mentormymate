@@ -556,6 +556,7 @@ border-left: 7px solid white;
                 <div class="o-vc-layout">
                     <x-hero />
                     <x-main />
+                    <x-testimonial />
 
                     <section
                         class="o-section o-row has-header-overlay has-glass-effect o-row--width-full s-color-scheme">

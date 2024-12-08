@@ -62,10 +62,10 @@
                                     <h5 class="c-widgets-footer__title u-font-size-large u-bold">Contact Information</h5>
                                     <div class="textwidget custom-html-widget"><a
                                             href="https://goo.gl/maps/SiQKJ4yRzDaYWipN8" target="_blank" rel="noopener">
-                                            Carlos M. Gimenez 4855<br>
-                                            Asunción, Paraguay
+                                            Kota,Rajasthan
+                                            
                                         </a><br>
-                                        <span><a href="tel:+595213279463">+595 21 327 9463</a></span>
+                                        <span><a href="tel:+595213279463">+91 456 789 1234</a></span>
                                     </div>
                                 </section>
                             </div>
