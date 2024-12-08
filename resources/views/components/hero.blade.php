@@ -19,7 +19,7 @@
                     <div class="o-sm-col-12 o-lg-col-10 o-md-col-10 o-xs-col-12">
                         <div class="c-vc-column-text color-white">
                             <div class="u-font-size- s-cms-content  fadeInUp">
-                                <h5>Get Personal Guidance For Neet with expert mentors from Top Medical Collages To Help
+                                <h5>Get Personal Guidance For NEET with expert mentors from Top Medical Collages To Help
                                     Your Success</h5>
                             </div>
                         </div>

@@ -21,8 +21,7 @@
                         </div>
                         <div class="c-learn-more-holder">
                             <div class="c-learn-more">
-                                <a href="project/rbc-wealth-management/"
-                                    class="c-learn-more-link "></a>
+                                <a href="project/rbc-wealth-management/" class="c-learn-more-link "></a>
                                 <div class="c-learn-more-title">Learn more</div>
                             </div>
                         </div>
@@ -31,18 +30,15 @@
                     <div class="o-sm-col-12 o-lg-col-7 o-md-col-7 o-xs-col-12">
                         <div class="wpb_single_image wpb_content_element vc_align_">
                             <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img
-                                        fetchpriority="high" decoding="async" width="828"
-                                        height="559"
+                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img fetchpriority="high"
+                                        decoding="async" width="828" height="559"
                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                         class="lazy " loading="lazy"
                                         data-src="wp-content/uploads/2023/11/homepage-rbc-1.png"
-                                        class="lazy vc_single_image-img attachment-full" alt
-                                        title="homepage-rbc (1)"
+                                        class="lazy vc_single_image-img attachment-full" alt title="homepage-rbc (1)"
                                         data-srcset="wp-content/uploads/2023/11/homepage-rbc-1.png 828w, wp-content/uploads/2023/11/homepage-rbc-1-300x203.png 300w, wp-content/uploads/2023/11/homepage-rbc-1-768x518.png 768w"
-                                        sizes="(max-width: 828px) 100vw, 828px" /><noscript><img
-                                            fetchpriority="high" decoding="async" width="828"
-                                            height="559"
+                                        sizes="(max-width: 828px) 100vw, 828px" /><noscript><img fetchpriority="high"
+                                            decoding="async" width="828" height="559"
                                             src="wp-content/uploads/2023/11/homepage-rbc-1.png"
                                             class="vc_single_image-img attachment-full" alt=""
                                             title="homepage-rbc (1)"
@@ -70,8 +66,7 @@
                     </div>
                 </div>
                 <div class="o-row o-container homepage-industry-single">
-                    <div
-                        class="o-sm-col-12 o-lg-col-4 o-md-col-4 o-hidden-sm o-xs-col-12 o-hidden-xs">
+                    <div class="o-sm-col-12 o-lg-col-4 o-md-col-4 o-hidden-sm o-xs-col-12 o-hidden-xs">
                         <div class="c-mm-vc-posts">
                             <div class="c-services-collection">
                                 <div class="o-container o-container--width-normal">
@@ -80,14 +75,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/healthcare-industry.jpg) no-repeat top left / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/healthcare/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/healthcare/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -146,14 +139,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/agriculture-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/agriculture/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/agriculture/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -172,14 +163,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/manufacturing-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/manufacturing/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/manufacturing/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -198,14 +187,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/finance-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/finance/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/finance/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -224,14 +211,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/education-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/education/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/education/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -260,14 +245,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/healthcare-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/healthcare/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/healthcare/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -286,14 +269,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/agriculture-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/agriculture/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/agriculture/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -312,14 +293,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/manufacturing-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/manufacturing/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/manufacturing/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -338,14 +317,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/finance-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/finance/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/finance/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -364,14 +341,12 @@
                                         <article
                                             style="flex-direction: column-reverse; background: url(wp-content/uploads/2023/01/education-industry.jpg) no-repeat bottom center / cover;"
                                             class="c-entry-services has-light-header-text s-color-scheme has-header-overlay">
-                                            <a href="industries/education/" rel="bookmark"
-                                                itemprop="url" class="c-readmore__link"></a>
+                                            <a href="industries/education/" rel="bookmark" itemprop="url"
+                                                class="c-readmore__link"></a>
                                             <div class="c-service--resource">
                                                 <div class="icon_services">
-                                                    <span
-                                                        class="c-icon c-icon--symbol c-icon--"><svg
-                                                            class="c-icon__svg c-icon__svg--"
-                                                            role="presentation">
+                                                    <span class="c-icon c-icon--symbol c-icon--"><svg
+                                                            class="c-icon__svg c-icon__svg--" role="presentation">
                                                             <use xlink:href="#--svg" />
                                                         </svg></span>
                                                 </div>
@@ -424,21 +399,20 @@
     </div>
     <div class="o-row o-row--width-normal s-color-scheme">
         <div class="o-container o-container--width-normal o-container--width-same">
-            <div
-                class="c-headings-block color-white o-sm-col-12 o-lg-col-10 o-md-col-10 o-xs-col-12">
+            <div class="c-headings-block color-white o-sm-col-12 o-lg-col-10 o-md-col-10 o-xs-col-12">
                 <div class="c-headings-block color-white u-font-size-extra-large">
                     <div class="c-headings-block__tag">
-                        MENTORMATE + TIETOEVRY CREATE </div>
-                    <h2 class="  c-headings-block__main h2">
-                        Powered by Global Teams </h2>
+                        MENTORMYMATE</div>
+                    <h2 style="font-size: 4rem; " class="  c-headings-block__main h2">
+                        HOW IT'S WORKS </h2>
                 </div>
-                <div class="c-vc-column-text color-white">
+                {{-- <div class="c-vc-column-text color-white">
                     <div class="u-font-size- s-cms-content  fadeInUp">
                         <h5>We combine deep local expertise with the power of over 10,000 team
                             members across North America, Eastern Europe, Latin America, the
                             Nordics, and South Asia.</h5>
                     </div>
-                </div>
+                </div> --}}
                 <div class="c-learn-more-holder">
                     <div class="c-learn-more">
                         <a href="about/locations" class="c-learn-more-link "></a>
@@ -457,25 +431,23 @@
         </div>
     </div>
 </section>
-<section
-    class="o-section o-row new-homepage-logos-section-background o-row--width-full s-color-scheme">
+<section class="o-section o-row new-homepage-logos-section-background o-row--width-full s-color-scheme">
     <div class="o-row homepage-stats-section__box__holder o-row--width-normal s-color-scheme">
         <div class="o-container o-container--width-normal o-container--width-same">
-            <div class="homepage-stats-section__box o-sm-col-6 o-lg-col-3 o-md-col-6 o-xs-col-12">
+            <div class="homepage-stats-section__box o-sm-col-6 o-lg-col-6 o-md-col-6 o-xs-col-12">
                 <div class="c-headings-block u-font-size-extra-large">
-                    <h2 class="  c-headings-block__main h2">
-                        23 </h2>
-                    <div class=" u-font-size-extra-large c-headings-block__sub">
+                    <h4 class="  c-headings-block__main h2">SIGN UP </h4>
+                    <div class=" c-headings-block__sub">
                         </p>
                         <h5>Years in business</h5>
                         <p>
                     </div>
                 </div>
             </div>
-            <div class="homepage-stats-section__box o-sm-col-6 o-lg-col-3 o-md-col-6 o-xs-col-12">
+            <div class="homepage-stats-section__box o-sm-col-6 o-lg-col-6 o-md-col-6 o-xs-col-12">
                 <div class="c-headings-block u-font-size-extra-large">
-                    <h2 class="  c-headings-block__main h2">
-                        15 </h2>
+                    <h4 class="  c-headings-block__main h2">
+                        Choose Mentor</h4>
                     <div class=" u-font-size-extra-large c-headings-block__sub">
                         </p>
                         <h5>Time zones</h5>
@@ -483,10 +455,10 @@
                     </div>
                 </div>
             </div>
-            <div class="homepage-stats-section__box o-sm-col-6 o-lg-col-3 o-md-col-6 o-xs-col-12">
+            <div class="homepage-stats-section__box o-sm-col-6 o-lg-col-6 o-md-col-6 o-xs-col-12">
                 <div class="c-headings-block u-font-size-extra-large">
-                    <h2 class="  c-headings-block__main h2">
-                        10k+ </h2>
+                    <h4 class="  c-headings-block__main h2">
+                        Choose Date & Time</h4>
                     <div class=" u-font-size-extra-large c-headings-block__sub">
                         </p>
                         <h5>Employees</h5>
@@ -494,10 +466,10 @@
                     </div>
                 </div>
             </div>
-            <div class="homepage-stats-section__box o-sm-col-6 o-lg-col-3 o-md-col-6 o-xs-col-12">
+            <div class="homepage-stats-section__box o-sm-col-6 o-lg-col-6 o-md-col-6 o-xs-col-12">
                 <div class="c-headings-block u-font-size-extra-large">
-                    <h2 class="  c-headings-block__main h2">
-                        35+ </h2>
+                    <h4 class="  c-headings-block__main h2">
+                        Payment </h4>
                     <div class=" u-font-size-extra-large c-headings-block__sub">
                         </p>
                         <h5>Countries</h5>
@@ -507,7 +479,7 @@
             </div>
         </div>
     </div>
-    <div class="o-row o-row--width-normal s-color-scheme">
+    {{-- <div class="o-row o-row--width-normal s-color-scheme">
         <div class="o-container o-container--width-normal o-container--width-same">
             <div class="o-sm-col-12 o-hidden-xs">
                 <div class="c-mm-vc-content-block">
@@ -518,142 +490,119 @@
                         }
                     </style>
                     <div class="o-vc-layout">
-                        <section
-                            class="o-section o-row partner-logos o-row--width-full s-color-scheme">
+                        <section class="o-section o-row partner-logos o-row--width-full s-color-scheme">
                             <div class="o-row o-row--width-normal s-color-scheme">
-                                <div
-                                    class="o-container o-container--width-normal o-container--width-same">
+                                <div class="o-container o-container--width-normal o-container--width-same">
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="158"
                                                         height="99"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2021/10/Cambria.svg"
-                                                        class="lazy vc_single_image-img attachment-full"
-                                                        alt title="Cambria" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="158" height="99"
+                                                        class="lazy vc_single_image-img attachment-full" alt
+                                                        title="Cambria" /><noscript><img loading="lazy"
+                                                            decoding="async" width="158" height="99"
                                                             src="wp-content/uploads/2021/10/Cambria.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="" title="Cambria" /></noscript>
+                                                            class="vc_single_image-img attachment-full" alt=""
+                                                            title="Cambria" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2 o-lg-col-2 o-md-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="158"
                                                         height="99"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2021/10/MC-Machinery.svg"
-                                                        class="lazy vc_single_image-img attachment-full"
-                                                        alt title="MC Machinery" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="158" height="99"
+                                                        class="lazy vc_single_image-img attachment-full" alt
+                                                        title="MC Machinery" /><noscript><img loading="lazy"
+                                                            decoding="async" width="158" height="99"
                                                             src="wp-content/uploads/2021/10/MC-Machinery.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt=""
+                                                            class="vc_single_image-img attachment-full" alt=""
                                                             title="MC Machinery" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="158"
                                                         height="99"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2021/10/RBC.svg"
-                                                        class="lazy vc_single_image-img attachment-full"
-                                                        alt title="RBC" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="158" height="99"
+                                                        class="lazy vc_single_image-img attachment-full" alt
+                                                        title="RBC" /><noscript><img loading="lazy"
+                                                            decoding="async" width="158" height="99"
                                                             src="wp-content/uploads/2021/10/RBC.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="" title="RBC" /></noscript>
+                                                            class="vc_single_image-img attachment-full" alt=""
+                                                            title="RBC" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="158"
                                                         height="91"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2021/10/Trek.svg"
-                                                        class="lazy vc_single_image-img attachment-full"
-                                                        alt title="Trek" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="158" height="91"
+                                                        class="lazy vc_single_image-img attachment-full" alt
+                                                        title="Trek" /><noscript><img loading="lazy"
+                                                            decoding="async" width="158" height="91"
                                                             src="wp-content/uploads/2021/10/Trek.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="" title="Trek" /></noscript>
+                                                            class="vc_single_image-img attachment-full" alt=""
+                                                            title="Trek" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="126"
                                                         height="46"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/Foss.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="Foss Swim School"
-                                                        title="Foss" /><noscript><img loading="lazy"
-                                                            decoding="async" width="126" height="46"
-                                                            src="wp-content/uploads/2022/11/Foss.svg"
+                                                        alt="Foss Swim School" title="Foss" /><noscript><img
+                                                            loading="lazy" decoding="async" width="126"
+                                                            height="46" src="wp-content/uploads/2022/11/Foss.svg"
                                                             class="vc_single_image-img attachment-full"
-                                                            alt="Foss Swim School"
-                                                            title="Foss" /></noscript>
+                                                            alt="Foss Swim School" title="Foss" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="121"
                                                         height="67"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/Jostens.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="Jostens"
-                                                        title="Jostens" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="121" height="67"
+                                                        alt="Jostens" title="Jostens" /><noscript><img
+                                                            loading="lazy" decoding="async" width="121"
+                                                            height="67"
                                                             src="wp-content/uploads/2022/11/Jostens.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="Jostens"
+                                                            class="vc_single_image-img attachment-full" alt="Jostens"
                                                             title="Jostens" /></noscript>
                                                 </div>
                                             </figure>
@@ -662,45 +611,37 @@
                                 </div>
                             </div>
                             <div class="o-row o-row--width-normal s-color-scheme">
-                                <div
-                                    class="o-container o-container--width-normal o-container--width-same">
+                                <div class="o-container o-container--width-normal o-container--width-same">
                                     <div class="o-sm-col-12">
                                         <div class="c-empty-space c-empty-space--sm"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="o-row o-row--width-normal s-color-scheme">
-                                <div
-                                    class="o-container o-container--width-normal o-container--width-same">
+                                <div class="o-container o-container--width-normal o-container--width-same">
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="31"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/Astra-Zeneca.svg"
-                                                        class="lazy vc_single_image-img attachment-full"
-                                                        alt title="Astra Zeneca" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="31"
+                                                        class="lazy vc_single_image-img attachment-full" alt
+                                                        title="Astra Zeneca" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="31"
                                                             src="wp-content/uploads/2022/11/Astra-Zeneca.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt=""
+                                                            class="vc_single_image-img attachment-full" alt=""
                                                             title="Astra Zeneca" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2 o-lg-col-2 o-md-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="27"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -708,9 +649,8 @@
                                                         data-src="wp-content/uploads/2022/11/LandOLakes.svg"
                                                         class="lazy vc_single_image-img attachment-full"
                                                         alt="Land O&#039;Lakes"
-                                                        title="Land O&#039;Lakes" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="27"
+                                                        title="Land O&#039;Lakes" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="27"
                                                             src="wp-content/uploads/2022/11/LandOLakes.svg"
                                                             class="vc_single_image-img attachment-full"
                                                             alt="Land O&#039;Lakes"
@@ -720,92 +660,77 @@
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="9"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/UHG.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="UnitedHealth Group"
-                                                        title="UHG" /><noscript><img loading="lazy"
-                                                            decoding="async" width="122" height="9"
-                                                            src="wp-content/uploads/2022/11/UHG.svg"
+                                                        alt="UnitedHealth Group" title="UHG" /><noscript><img
+                                                            loading="lazy" decoding="async" width="122"
+                                                            height="9" src="wp-content/uploads/2022/11/UHG.svg"
                                                             class="vc_single_image-img attachment-full"
-                                                            alt="UnitedHealth Group"
-                                                            title="UHG" /></noscript>
+                                                            alt="UnitedHealth Group" title="UHG" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="19"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/Edmentum.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="Edmentum"
-                                                        title="Edmentum" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="19"
+                                                        alt="Edmentum" title="Edmentum" /><noscript><img
+                                                            loading="lazy" decoding="async" width="122"
+                                                            height="19"
                                                             src="wp-content/uploads/2022/11/Edmentum.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="Edmentum"
+                                                            class="vc_single_image-img attachment-full" alt="Edmentum"
                                                             title="Edmentum" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="19"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/Graco.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="Graco" title="Graco" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="19"
+                                                        alt="Graco" title="Graco" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="19"
                                                             src="wp-content/uploads/2022/11/Graco.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="Graco" title="Graco" /></noscript>
+                                                            class="vc_single_image-img attachment-full" alt="Graco"
+                                                            title="Graco" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="29"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/Visana.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="Visana" title="Visana" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="29"
+                                                        alt="Visana" title="Visana" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="29"
                                                             src="wp-content/uploads/2022/11/Visana.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="Visana"
+                                                            class="vc_single_image-img attachment-full" alt="Visana"
                                                             title="Visana" /></noscript>
                                                 </div>
                                             </figure>
@@ -814,44 +739,37 @@
                                 </div>
                             </div>
                             <div class="o-row o-row--width-normal s-color-scheme">
-                                <div
-                                    class="o-container o-container--width-normal o-container--width-same">
+                                <div class="o-container o-container--width-normal o-container--width-same">
                                     <div class="o-sm-col-12">
                                         <div class="c-empty-space c-empty-space--sm"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="o-row o-row--width-normal s-color-scheme">
-                                <div
-                                    class="o-container o-container--width-normal o-container--width-same">
+                                <div class="o-container o-container--width-normal o-container--width-same">
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="41"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/Trane.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="Trane" title="Trane" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="41"
+                                                        alt="Trane" title="Trane" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="41"
                                                             src="wp-content/uploads/2022/11/Trane.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="Trane" title="Trane" /></noscript>
+                                                            class="vc_single_image-img attachment-full" alt="Trane"
+                                                            title="Trane" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2 o-lg-col-2 o-md-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="28"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -859,9 +777,8 @@
                                                         data-src="wp-content/uploads/2022/11/Junior-Achievement.svg"
                                                         class="lazy vc_single_image-img attachment-full"
                                                         alt="Junior Achievement"
-                                                        title="Junior Achievement" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="28"
+                                                        title="Junior Achievement" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="28"
                                                             src="wp-content/uploads/2022/11/Junior-Achievement.svg"
                                                             class="vc_single_image-img attachment-full"
                                                             alt="Junior Achievement"
@@ -871,55 +788,47 @@
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="45"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/BASF.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="BASF" title="BASF" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="45"
+                                                        alt="BASF" title="BASF" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="45"
                                                             src="wp-content/uploads/2022/11/BASF.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="BASF" title="BASF" /></noscript>
+                                                            class="vc_single_image-img attachment-full" alt="BASF"
+                                                            title="BASF" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="47"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/DTN.svg"
                                                         class="lazy vc_single_image-img attachment-full"
-                                                        alt="DTN" title="DTN" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="47"
+                                                        alt="DTN" title="DTN" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="47"
                                                             src="wp-content/uploads/2022/11/DTN.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="DTN" title="DTN" /></noscript>
+                                                            class="vc_single_image-img attachment-full" alt="DTN"
+                                                            title="DTN" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="25"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -927,9 +836,8 @@
                                                         data-src="wp-content/uploads/2022/11/Societe-Generale.svg"
                                                         class="lazy vc_single_image-img attachment-full"
                                                         alt="Societe Generale"
-                                                        title="Societe Generale" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="25"
+                                                        title="Societe Generale" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="25"
                                                             src="wp-content/uploads/2022/11/Societe-Generale.svg"
                                                             class="vc_single_image-img attachment-full"
                                                             alt="Societe Generale"
@@ -939,23 +847,20 @@
                                         </div>
                                     </div>
                                     <div class="o-sm-col-2">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_center">
+                                        <div class="wpb_single_image wpb_content_element vc_align_center">
                                             <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper   vc_box_border_grey">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
                                                     <img loading="lazy" decoding="async" width="122"
                                                         height="55"
                                                         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                         class="lazy " loading="lazy"
                                                         data-src="wp-content/uploads/2022/11/Cargill.svg"
-                                                        class="lazy vc_single_image-img attachment-full"
-                                                        alt title="Cargill" /><noscript><img
-                                                            loading="lazy" decoding="async"
-                                                            width="122" height="55"
+                                                        class="lazy vc_single_image-img attachment-full" alt
+                                                        title="Cargill" /><noscript><img loading="lazy"
+                                                            decoding="async" width="122" height="55"
                                                             src="wp-content/uploads/2022/11/Cargill.svg"
-                                                            class="vc_single_image-img attachment-full"
-                                                            alt="" title="Cargill" /></noscript>
+                                                            class="vc_single_image-img attachment-full" alt=""
+                                                            title="Cargill" /></noscript>
                                                 </div>
                                             </figure>
                                         </div>
@@ -967,7 +872,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="o-row o-row--width-normal s-color-scheme">
         <div class="o-container o-container--width-normal o-container--width-same">
             <div class="o-sm-col-12">
@@ -976,22 +881,85 @@
         </div>
     </div>
 </section>
+
+<section class="testimonials-section">
+    <div class="o-row o-row--width-normal">
+      <div class="o-containerr o-containerr--width-normal">
+        <!-- Section Title -->
+        <div class="o-sm-col-12">
+          <div class="c-headings-block ct">
+            <h2 style="text-align: center" class="test-c-headings-block__main">What Our Students
+              Say</h2>
+          </div>
+          <div class="c-empty-space c-empty-space--sm"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Grid -->
+    <div class="o-row o-row--width-normal">
+      <div class="o-container o-container--width-normal">
+        <!-- Testimonial 1 -->
+        <div class="o-sm-col-12 o-md-col-6 o-lg-col-4">
+          <div class="c-testimonial-block">
+            <img
+              src="https://images.pexels.com/photos/7242901/pexels-photo-7242901.jpeg"
+              alt="Student 1" class="testimonial-image">
+            <p
+              class="testimonial-text">"MentormyMate provided me with the guidance I needed to excel in my NEET preparations. My mentor was amazing!"</p>
+            <div class="testimonial-name">- Riya Sharma</div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="o-sm-col-12 o-md-col-6 o-lg-col-4">
+          <div class="c-testimonial-block">
+            <img
+              src="https://images.pexels.com/photos/7479790/pexels-photo-7479790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Student 2" class="testimonial-image">
+            <p
+              class="testimonial-text">"The personalized learning plan helped me stay on track, and I saw real improvement in my scores."</p>
+            <div class="testimonial-name">- Ankit Verma</div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="o-sm-col-12 o-md-col-6 o-lg-col-4">
+          <div class="c-testimonial-block">
+            <img
+              src="https://images.pexels.com/photos/3862753/pexels-photo-3862753.jpeg"
+              alt="Student 3" class="testimonial-image">
+            <p
+              class="testimonial-text">"I loved the mentorship experience. It was the support I needed to push my limits and achieve success."</p>
+            <div class="testimonial-name">- Pooja Singh</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spacer -->
+    <div class="o-row o-row--width-normal">
+      <div class="o-container o-container--width-normal">
+        <div class="o-sm-col-12">
+          <div class="c-empty-space c-empty-space--lg"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 {{-- Image  --}}
 <div class="o-row homepage-wide-image-with-overlay o-row--width-full s-color-scheme">
     <div class="o-container o-container--width-full o-container--width-same">
         <div class="o-sm-col-12">
             <div class="wpb_single_image wpb_content_element vc_align_   full-width-image">
                 <figure class="wpb_wrapper vc_figure">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async"
-                            width="1600" height="800"
+                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="1600"
+                            height="800"
                             src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                            class="lazy " loading="lazy"
-                            data-src="wp-content/uploads/2023/11/MN.jpg"
+                            class="lazy " loading="lazy" data-src="wp-content/uploads/2023/11/MN.jpg"
                             class="lazy vc_single_image-img attachment-full" alt title="MN"
                             data-srcset="wp-content/uploads/2023/11/MN.jpg 1600w, wp-content/uploads/2023/11/MN-300x150.jpg 300w, wp-content/uploads/2023/11/MN-1030x515.jpg 1030w, wp-content/uploads/2023/11/MN-768x384.jpg 768w, wp-content/uploads/2023/11/MN-1536x768.jpg 1536w"
-                            sizes="(max-width: 1600px) 100vw, 1600px" /><noscript><img
-                                decoding="async" width="1600" height="800"
-                                src="wp-content/uploads/2023/11/MN.jpg"
+                            sizes="(max-width: 1600px) 100vw, 1600px" /><noscript><img decoding="async"
+                                width="1600" height="800" src="wp-content/uploads/2023/11/MN.jpg"
                                 class="vc_single_image-img attachment-full" alt="" title="MN"
                                 srcset="wp-content/uploads/2023/11/MN.jpg 1600w, wp-content/uploads/2023/11/MN-300x150.jpg 300w, wp-content/uploads/2023/11/MN-1030x515.jpg 1030w, wp-content/uploads/2023/11/MN-768x384.jpg 768w, wp-content/uploads/2023/11/MN-1536x768.jpg 1536w"
                                 sizes="(max-width: 1600px) 100vw, 1600px" /></noscript></div>
