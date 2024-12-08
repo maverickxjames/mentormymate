@@ -107,17 +107,11 @@
                                 <br>
 
                                 <div class="upload-container">
-                                    <input type="file" id="fileInput" class="upload-input" multiple />
-                                    <a href="#" id="browseLink">
-
-                                        <div class="upload-area">
-                                            {{-- <div class="upload-icon">⬆️</div> --}}
-                                            {{-- <p>Drop your images here or <a href="#" id="browseLink">browse</a>.</p> --}}
-                                            <button type="button" class="upload-button">Upload College ID / Document</button>
-                                        </div>
-                                    </a>
+                                    <div id="uploadArea" class="upload-area">
+                                        <input type="file" id="fileInput" class="upload-input" multiple style="display: none;" />
+                                        <button type="button" class="upload-button" id="browseButton">Upload College ID / Document</button>
+                                    </div>
                                     <div class="preview-container" id="previewContainer"></div>
-                                   
                                 </div>
 
                                 {{-- year with dropdown option 2022,2023,2024,2025 --}}
@@ -148,19 +142,13 @@
                                 
                                {{-- upload score card  --}}
 
-                                <div class="upload-container">
-                                    <input type="file" id="fileInput2" class="upload-input" multiple />
-                                    <a href="#0" id="browseLink2">
-
-                                        <div class="upload-area">
-                                            {{-- <div class="upload-icon">⬆️</div> --}}
-                                            {{-- <p>Drop your images here or <a href="#" id="browseLink">browse</a>.</p> --}}
-                                            <button type="button" class="upload-button">Upload Score Card</button>
-                                        </div>
-                                    </a>
-                                    <div class="preview-container" id="previewContainer2"></div>
-
+                               <div class="upload-container">
+                                <div id="uploadArea2" class="upload-area">
+                                    <input type="file" id="fileInput2" class="upload-input" style="display: none;" />
+                                    <button type="button" class="upload-button" id="browseButton2">Upload Score Card</button>
                                 </div>
+                                <div class="preview-container" id="previewContainer2"></div>
+                            </div>
                                 
                                 
                                 <div class="form-group

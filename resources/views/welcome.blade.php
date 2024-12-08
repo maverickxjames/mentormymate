@@ -722,127 +722,59 @@ var whp_local_data = {"add_url":"https:\/\/mentormate.com\/wp-admin\/post-new.ph
             href="https://wpml.org">wpml.org</a> as a development site.</div>
 
     <script>
-        const fileInput = document.getElementById('fileInput');
-const uploadArea = document.getElementById('uploadArea');
-const previewContainer = document.getElementById('previewContainer');
-const browseLink = document.getElementById('browseLink');
+        // Generalized function for handling file uploads
+function setupUploadArea(fileInputId, browseButtonId, uploadAreaId, previewContainerId) {
+    const fileInput = document.getElementById(fileInputId);
+    const browseButton = document.getElementById(browseButtonId);
+    const uploadArea = document.getElementById(uploadAreaId);
+    const previewContainer = document.getElementById(previewContainerId);
 
+    // Function to handle files and generate previews
+    function handleFiles(files) {
+        previewContainer.innerHTML = ''; // Clear previous previews
+        Array.from(files).forEach((file) => {
+            if (file.type.startsWith('image/')) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.style.maxWidth = '100px'; // Optional: Customize preview size
+                    img.style.margin = '5px';
+                    previewContainer.appendChild(img);
+                };
+                reader.readAsDataURL(file);
+            } else {
+                alert('Only image files are allowed!');
+            }
+        });
+    }
 
+    // Handle file input changes
+    fileInput.addEventListener('change', (e) => handleFiles(e.target.files));
 
-// Function to handle file selection and preview
-function handleFiles(files) {
-    // Clear previous previews
-    previewContainer.innerHTML = '';
+    // Trigger file input when clicking the browse button
+    browseButton.addEventListener('click', () => fileInput.click());
 
-    // Loop through each selected file
-    Array.from(files).forEach((file) => {
-        if (file.type.startsWith('image/')) {
-            const reader = new FileReader();
-            reader.onload = (e) => {
-                // Create an image element for preview
-                const img = document.createElement('img');
-                img.src = e.target.result;
-                previewContainer.appendChild(img);
-            };
-            reader.readAsDataURL(file);
-        } else {
-            alert('Only image files are allowed!');
-        }
+    // Drag-and-drop functionality
+    uploadArea.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        uploadArea.style.backgroundColor = '#eef4ff'; // Change background on drag over
+    });
+
+    uploadArea.addEventListener('dragleave', () => {
+        uploadArea.style.backgroundColor = '#f8f9ff'; // Reset background on drag leave
+    });
+
+    uploadArea.addEventListener('drop', (e) => {
+        e.preventDefault();
+        uploadArea.style.backgroundColor = '#f8f9ff'; // Reset background on drop
+        handleFiles(e.dataTransfer.files);
     });
 }
 
-// Handle file input change
-fileInput.addEventListener('change', (e) => {
-    handleFiles(e.target.files);
-});
-
-// Trigger file input on "browse" link click
-browseLink.addEventListener('click', (e) => {
-    console.log('clicked');
-    e.preventDefault();
-    fileInput.click();
-});
-
-// Drag-and-drop functionality
-uploadArea.addEventListener('dragover', (e) => {
-    e.preventDefault();
-    uploadArea.style.backgroundColor = '#eef4ff'; // Change background on drag over
-});
-
-uploadArea.addEventListener('dragleave', () => {
-    uploadArea.style.backgroundColor = '#f8f9ff'; // Reset background on drag leave
-});
-
-uploadArea.addEventListener('drop', (e) => {
-    e.preventDefault();
-    uploadArea.style.backgroundColor = '#f8f9ff'; // Reset background on drop
-    handleFiles(e.dataTransfer.files); // Handle dropped files
-});
-
-const fileInput2 = document.getElementById('fileInput2');
-const uploadArea2 = document.getElementById('uploadArea2');
-const previewContainer2 = document.getElementById('previewContainer2');
-const browseLink2 = document.getElementById('browseLink2');
-
-
-// handle second file input and preview container 2 
-
-function handleFiles2(files) {
-    // Clear previous previews
-    previewContainer2.innerHTML = '';
-
-    // Loop through each selected file
-    Array.from(files).forEach((file) => {
-        if (file.type.startsWith('image/')) {
-            const reader = new FileReader();
-            reader.onload = (e) => {
-                // Create an image element for preview
-                const img = document.createElement('img');
-                img.src = e.target.result;
-                previewContainer2.appendChild(img);
-            };
-            reader.readAsDataURL(file);
-        } else {
-            alert('Only image files are allowed!');
-        }
-    });
-}
-
-// Handle file input change
-fileInput2.addEventListener('change', (e) => {
-    handleFiles2(e.target.files);
-});
-
-// Trigger file input on "browse" link click
-
-browseLink2.addEventListener('click', (e) => {
-    console.log('clicked');
-    e.preventDefault();
-    fileInput2.click();
-});
-
-// Drag-and-drop functionality
-uploadArea2.addEventListener('dragover', (e) => {
-    e.preventDefault();
-    uploadArea2.style.backgroundColor = '#eef4ff'; // Change background on drag over
-});
-
-uploadArea2.addEventListener('dragleave', () => {
-
-    uploadArea2.style.backgroundColor = '#f8f9ff'; // Reset background on drag leave
-});
-
-uploadArea2.addEventListener('drop', (e) => {
-    e.preventDefault();
-    uploadArea2.style.backgroundColor = '#f8f9ff'; // Reset background on drop
-    handleFiles2(e.dataTransfer.files); // Handle dropped files
-});
-
-
-
-
- 
-
+// Set up both upload areas
+setupUploadArea('fileInput', 'browseButton', 'uploadArea', 'previewContainer');
+setupUploadArea('fileInput2', 'browseButton2', 'uploadArea2', 'previewContainer2');
 
     </script>
 </body>
