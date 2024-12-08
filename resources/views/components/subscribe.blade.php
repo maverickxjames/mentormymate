@@ -71,131 +71,115 @@
                         <div id="hubspot-form-35af469e-31f9-44cb-8d2c-24ffa4a83132-87753"
                             class="c-hs-form-wrap js-hs-form-wrap">
 
-                            <form id="hsForm_35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" method="POST"
-                                accept-charset="UTF-8" enctype="multipart/form-data" novalidate="" action=""
-                                class="hs-form-private hsForm_35af469e-31f9-44cb-8d2c-24ffa4a83132 hs-form-35af469e-31f9-44cb-8d2c-24ffa4a83132 hs-form-35af469e-31f9-44cb-8d2c-24ffa4a83132_0fe97a1b-f61f-46b3-8a0e-766a02c6c329 hs-form">
-                                <div
-                                    class="hs_us__inquiry_type hs-us__inquiry_type hs-fieldtype-select field hs-form-field hs-form__field hs-form__field--select-one has-value">
-                                    <label id="label-us__inquiry_type-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"
-                                        class="" placeholder="Enter your Inquiry Type"
-                                        for="us__inquiry_type-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>College
-                                            Name</span><span class="hs-form-required">*</span></label>
-                                    <legend class="hs-field-desc" style="display: none;"></legend>
-                                    <div class="input"><select
-                                            id="us__inquiry_type-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" required=""
-                                            class="hs-input is-placeholder" name="us__inquiry_type">
-                                            <option disabled="" value="">Please Select</option>
-                                            <option value="General Information Request">General Information</option>
-                                            <option value="Talk to Sales / Services Request">Starting a Project</option>
-                                            <option value="Career / HR Inquiries">Careers</option>
-                                            <option value="Media / Press Relations">Press</option>
-                                        </select></div>
+                            {{-- bootstrap form to accept mentors data and insert into database  --}}
+
+                            <form method="POST" action="" enctype="multipart/form-data">
+                                @csrf
+                                <div class="form-group
+                                    {{ $errors->has('name') ? 'has-error' : '' }}">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" class="form-control"
+                                        value="{{ old('name') }}">
+                                    <span class="text-danger">{{ $errors->first('name') }}</span>
                                 </div>
-                                <div
-                                    class="hs_firstname hs-firstname hs-fieldtype-text field hs-form-field hs-form__field hs-form__field--text has-value">
-                                    <label id="label-firstname-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" class=""
-                                        placeholder="Enter your First name"
-                                        for="firstname-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>First
-                                            name</span><span class="hs-form-required">*</span></label>
-                                    <legend class="hs-field-desc" style="display: none;"></legend>
-                                    <div class="input"><input id="firstname-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"
-                                            name="firstname" required="" placeholder="" type="text" class="hs-input"
-                                            inputmode="text" autocomplete="given-name" value=""></div>
+                                <div class="form-group
+                                    {{ $errors->has('email') ? 'has-error' : '' }}">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" class="form-control"
+                                        value="{{ old('email') }}">
+                                    <span class="text-danger">{{ $errors->first('email') }}</span>
                                 </div>
-                                <div
-                                    class="hs_lastname hs-lastname hs-fieldtype-text field hs-form-field hs-form__field hs-form__field--text has-value">
-                                    <label id="label-lastname-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" class=""
-                                        placeholder="Enter your Last name"
-                                        for="lastname-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>Last
-                                            name</span><span class="hs-form-required">*</span></label>
-                                    <legend class="hs-field-desc" style="display: none;"></legend>
-                                    <div class="input"><input id="lastname-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"
-                                            name="lastname" required="" placeholder="" type="text" class="hs-input"
-                                            inputmode="text" autocomplete="family-name" value=""></div>
+                                <div class="form-group
+                                    {{ $errors->has('phone') ? 'has-error' : '' }}">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" name="phone" class="form-control"
+                                        value="{{ old('phone') }}">
+                                    <span class="text-danger">{{ $errors->first('phone') }}</span>
                                 </div>
-                                <div
-                                    class="hs_email hs-email hs-fieldtype-text field hs-form-field hs-form__field hs-form__field--email has-value">
-                                    <label id="label-email-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" class=""
-                                        placeholder="Enter your Email"
-                                        for="email-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>Email</span><span
-                                            class="hs-form-required">*</span></label>
-                                    <legend class="hs-field-desc" style="display: none;"></legend>
-                                    <div class="input"><input id="email-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"
-                                            name="email" required="" placeholder="" type="email" class="hs-input"
-                                            inputmode="email" autocomplete="email" value=""></div>
+                                <div class="form-group
+                                    {{ $errors->has('college') ? 'has-error' : '' }}">
+                                    <label for="college">College</label>
+                                    <input type="text" name="college" class="form-control"
+                                        value="{{ old('college') }}">
+                                    <span class="text-danger">{{ $errors->first('college') }}</span>
                                 </div>
-                                <div
-                                    class="hs_phone hs-phone hs-fieldtype-phonenumber field hs-form-field hs-form__field hs-form__field--tel has-value">
-                                    <label id="label-phone-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" class=""
-                                        placeholder="Enter your Phone number"
-                                        for="phone-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>Phone
-                                            number</span><span class="hs-form-required">*</span></label>
-                                    <legend class="hs-field-desc" style="display: none;"></legend>
-                                    <div class="input"><input id="phone-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"
-                                            name="phone" required="" placeholder="" type="tel" class="hs-input"
-                                            inputmode="tel" autocomplete="tel" value=""></div>
+
+                                <br>
+
+                                <div class="upload-container">
+                                    <input type="file" id="fileInput" class="upload-input" multiple />
+                                    <a href="#" id="browseLink">
+
+                                        <div class="upload-area">
+                                            {{-- <div class="upload-icon">⬆️</div> --}}
+                                            {{-- <p>Drop your images here or <a href="#" id="browseLink">browse</a>.</p> --}}
+                                            <button type="button" class="upload-button">Upload College ID / Document</button>
+                                        </div>
+                                    </a>
+                                    <div class="preview-container" id="previewContainer"></div>
+                                   
                                 </div>
-                                <div
-                                    class="hs_company hs-company hs-fieldtype-text field hs-form-field hs-form__field hs-form__field--text has-value">
-                                    <label id="label-company-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" class=""
-                                        placeholder="Enter your Company name"
-                                        for="company-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>Company
-                                            name</span><span class="hs-form-required">*</span></label>
-                                    <legend class="hs-field-desc" style="display: none;"></legend>
-                                    <div class="input"><input id="company-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"
-                                            name="company" required="" placeholder="" type="text" class="hs-input"
-                                            inputmode="text" autocomplete="organization" value=""></div>
+
+                                {{-- year with dropdown option 2022,2023,2024,2025 --}}
+
+
+                                <div class="form-group
+                                    {{ $errors->has('year') ? 'has-error' : '' }}">
+                                    <label for="year">Year</label>
+                                   
+                                    <select id="select2" name="year" id="year">
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                    </select>
+
                                 </div>
-                                <div
-                                    class="hs_company_size hs-company_size hs-fieldtype-select field hs-form-field hs-form__field hs-form__field--select-one has-value">
-                                    <label id="label-company_size-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" class=""
-                                        placeholder="Enter your Company Type"
-                                        for="company_size-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>Company
-                                            Type</span><span class="hs-form-required">*</span></label>
-                                    <legend class="hs-field-desc" style="display: none;"></legend>
-                                    <div class="input"><select
-                                            id="company_size-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" required=""
-                                            class="hs-input is-placeholder" name="company_size">
-                                            <option disabled="" value="">- Please Select -</option>
-                                            <option value="Startup - Early Stage">Startup - Early Stage</option>
-                                            <option value="Startup - Late Stage">Startup - Late Stage</option>
-                                            <option value="Small or Medium-sized Business">Small or Medium-sized
-                                                Business</option>
-                                            <option value="Enterprise">Enterprise</option>
-                                            <option value="Non-profit">Non-profit</option>
-                                            <option value="Other">Other</option>
-                                        </select></div>
+
+                                
+                                <div class="form-group
+                                    {{ $errors->has('score') ? 'has-error' : '' }}">
+                                    <label for="score">Score</label>
+                                    <input type="text" name="score" class="form-control"
+                                        value="{{ old('score') }}">
+                                    <span class="text-danger">{{ $errors->first('score') }}</span>
                                 </div>
-                                <div
-                                    class="hs_message hs-message hs-fieldtype-textarea field hs-form-field hs-form__field hs-form__field--textarea has-value">
-                                    <label id="label-message-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623" class=""
-                                        placeholder="Enter your Message"
-                                        for="message-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"><span>Message</span><span
-                                            class="hs-form-required">*</span></label>
-                                    <legend class="hs-field-desc" style="display: none;"></legend>
-                                    <div class="input"><textarea id="message-35af469e-31f9-44cb-8d2c-24ffa4a83132_31623"
-                                            class="hs-input hs-fieldtype-textarea" name="message" required=""
-                                            placeholder=""></textarea></div>
-                                </div>
-                                <div class="legal-consent-container">
-                                    <div class="hs-richtext">
-                                        <p>By ticking the checkboxes and confirming with “Get Started” you agree with
-                                            processing your personal data for the purpose of entering a pre-contractual
-                                            relationship. For more information on how we are committed to protect and
-                                            respect your privacy, please check our <a
-                                                href="https://mentormate.com/privacy-policy/" target="_blank"
-                                                rel="noopener">Privacy Policy</a>.</p>
-                                    </div>
-                                </div>
-                                <div class="hs_submit hs-submit">
-                                    <div class="hs-field-desc" style="display: none;"></div>
-                                    <div class="actions"><input type="submit" class="hs-button" value="Get Started">
-                                    </div>
+                                <br>
+                                
+                               {{-- upload score card  --}}
+
+                                <div class="upload-container">
+                                    <input type="file" id="fileInput2" class="upload-input" multiple />
+                                    <a href="#0" id="browseLink2">
+
+                                        <div class="upload-area">
+                                            {{-- <div class="upload-icon">⬆️</div> --}}
+                                            {{-- <p>Drop your images here or <a href="#" id="browseLink">browse</a>.</p> --}}
+                                            <button type="button" class="upload-button">Upload Score Card</button>
+                                        </div>
+                                    </a>
+                                    <div class="preview-container" id="previewContainer2"></div>
+
                                 </div>
                                 
                                 
-                               
-                            </form>
+                                <div class="form-group
+                                    {{ $errors->has('message') ? 'has-error' : '' }}">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control">{{ old('message') }}</textarea>
+                                    <span class="text-danger">{{ $errors->first('message') }}</span>
+                                </div>
+                                <div class="form-group
+                                    {{ $errors->has('consent') ? 'has-error' : '' }}">
+                                    <label for="consent">Consent</label>
+                                    <input type="checkbox" name="consent" class="form-control"
+                                        value="{{ old('consent') }}">
+                                    <span class="text-danger">{{ $errors->first('consent') }}</span>
+                                </div>
+
+
+                           
+
 
                         </div>
                     </div>
@@ -205,3 +189,10 @@
         </div>
     </div>
 </div>
+
+{{-- select2 js  --}}
+
+
+
+
+

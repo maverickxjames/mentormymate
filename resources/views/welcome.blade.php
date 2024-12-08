@@ -43,6 +43,11 @@
         href="wp-content/themes/mentormate-2021/build/css/theme.min.css?ver=6.6.1" type="text/css" media="all" />
     <link rel="stylesheet" id="wp-block-library-css"
         href="wordpress/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1" type="text/css" media="all" />
+
+    {{-- bootstrap cdn --}}
+
+
+
     <style id="classic-theme-styles-inline-css" type="text/css">
         /*! This file is auto-generated */
         .wp-block-button__link {
@@ -59,6 +64,86 @@
             background: #32373c;
             color: #fff;
             text-decoration: none
+        }
+
+        /* Container styling */
+        .upload-container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Hide the input */
+        .upload-input {
+            display: none;
+        }
+
+        /* Upload area styling */
+        .upload-area {
+            border: 2px dashed #007bff;
+            border-radius: 10px;
+            padding: 30px;
+            background-color: #f8f9ff;
+            color: #007bff;
+            transition: 0.3s;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .upload-area:hover {
+            background-color: #eef4ff;
+        }
+
+        /* Icon styling */
+        .upload-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        /* Text and link styling */
+        .upload-area p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .upload-area a {
+            color: #007bff;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        /* Button styling */
+        .upload-button {
+            margin-top: 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .upload-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Preview container styling */
+        .preview-container {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .preview-container img {
+            max-width: 100px;
+            max-height: 100px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
         }
     </style>
     <style id="global-styles-inline-css" type="text/css">
@@ -438,9 +523,6 @@ var whp_local_data = {"add_url":"https:\/\/mentormate.com\/wp-admin\/post-new.ph
 
     <meta name="ahrefs-site-verification" content="aa548cddbbfb9ab14a0d462a7d0fd5dca5cc2e3e31163400cefcb0af9cc1e12f">
     <style>
-
-       
-
         .otgs-development-site-front-end {
             display: none !important;
         }
@@ -458,8 +540,6 @@ var whp_local_data = {"add_url":"https:\/\/mentormate.com\/wp-admin\/post-new.ph
         .o-row--bg-gray::after {
             height: 27%;
         }
-
-
     </style>
     <noscript>
         <style>
@@ -470,80 +550,79 @@ var whp_local_data = {"add_url":"https:\/\/mentormate.com\/wp-admin\/post-new.ph
     </noscript>
 
     <style>
-                h3.why-choose{
-padding: 0 500px 0 10px;
-border-left: 7px solid white;
-}
+        h3.why-choose {
+            padding: 0 500px 0 10px;
+            border-left: 7px solid white;
+        }
 
-@media (max-width: 899px) {
-    h3.why-choose{
-padding: 0 10px;
-border-left: 7px solid white;
-}
-}
+        @media (max-width: 899px) {
+            h3.why-choose {
+                padding: 0 10px;
+                border-left: 7px solid white;
+            }
+        }
     </style>
 
 
-<style>
-     /* General Section Styling */
-     .testimonials-section {
-              background-color: #f9f9f9;
-              padding: 50px 0;
-          }
+    <style>
+        /* General Section Styling */
+        .testimonials-section {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
 
-          .c-headings-block {
-              /* text-align: center; */
-              margin-bottom: 30px;
-          }
+        .c-headings-block {
+            /* text-align: center; */
+            margin-bottom: 30px;
+        }
 
-          .c-headings-block__main {
-              font-size: 32px;
-              font-weight: bold;
-              color: #333;
-          }
+        .c-headings-block__main {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+        }
 
-            /* Testimonial Block */
-            .c-testimonial-block {
-              background-color: white;
-              border-radius: 8px;
-              padding: 20px;
-              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-              text-align: center;
-              margin-bottom: 30px;
-              transition: transform 0.3s ease;
-          }
+        /* Testimonial Block */
+        .c-testimonial-block {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
 
-          .c-testimonial-block:hover {
-              transform: translateY(-5px);
-          }
+        .c-testimonial-block:hover {
+            transform: translateY(-5px);
+        }
 
-          /* Testimonial Image */
-          .testimonial-image {
-              width: 80px;
-              height: 80px;
-              border-radius: 50%;
-              object-fit: cover;
-              margin-bottom: 15px;
-              border: 3px solid #ddd;
-          }
+        /* Testimonial Image */
+        .testimonial-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #ddd;
+        }
 
-          /* Testimonial Text */
-          .testimonial-text {
-              font-size: 16px;
-              font-style: italic;
-              color: #666;
-              margin-bottom: 10px;
-              line-height: 1.5;
-          }
+        /* Testimonial Text */
+        .testimonial-text {
+            font-size: 16px;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
 
-          /* Testimonial Name */
-          .testimonial-name {
-              font-size: 14px;
-              font-weight: bold;
-              color: #333;
-          }
-
-</style>
+        /* Testimonial Name */
+        .testimonial-name {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
 </head>
 
 <body
@@ -572,7 +651,7 @@ border-left: 7px solid white;
                             </div>
                         </div>
                         <x-about />
-                        
+
 
                         <x-subscribe />
                     </section>
@@ -596,20 +675,25 @@ border-left: 7px solid white;
         id="mm-base-gdpr-load-scripts-js"></script>
     <script id="mm-base-vendor-js" type="text/javascript" defer
         src="wp-content/themes/mentormate-2021/build/js/vendor.min.js?ver=6.6.1" id="mm-base-vendor-js"></script>
-   
+
     <script id="mm-base-theme-js" type="text/javascript" defer
         src="wp-content/themes/mentormate-2021/build/js/theme.min.js?ver=6.6.1" id="mm-base-theme-js"></script>
     <script id="enlighterjs-js" type="text/javascript"
         src="wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=qPcM/O6U+Zzjnzp" id="enlighterjs-js"></script>
-   
+
     <script id="wpb_composer_front_js-js" type="text/javascript" defer
         src="wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.10.0"
         id="wpb_composer_front_js-js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+    <script>
+
+    </script>
+
     <style>
-
-
-
-        
         .otgs-development-site-front-end a {
             color: white;
         }
@@ -636,6 +720,131 @@ border-left: 7px solid white;
     </style>
     <div class="otgs-development-site-front-end"><span class="icon"></span>This site is registered on <a
             href="https://wpml.org">wpml.org</a> as a development site.</div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+const uploadArea = document.getElementById('uploadArea');
+const previewContainer = document.getElementById('previewContainer');
+const browseLink = document.getElementById('browseLink');
+
+
+
+// Function to handle file selection and preview
+function handleFiles(files) {
+    // Clear previous previews
+    previewContainer.innerHTML = '';
+
+    // Loop through each selected file
+    Array.from(files).forEach((file) => {
+        if (file.type.startsWith('image/')) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                // Create an image element for preview
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                previewContainer.appendChild(img);
+            };
+            reader.readAsDataURL(file);
+        } else {
+            alert('Only image files are allowed!');
+        }
+    });
+}
+
+// Handle file input change
+fileInput.addEventListener('change', (e) => {
+    handleFiles(e.target.files);
+});
+
+// Trigger file input on "browse" link click
+browseLink.addEventListener('click', (e) => {
+    console.log('clicked');
+    e.preventDefault();
+    fileInput.click();
+});
+
+// Drag-and-drop functionality
+uploadArea.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    uploadArea.style.backgroundColor = '#eef4ff'; // Change background on drag over
+});
+
+uploadArea.addEventListener('dragleave', () => {
+    uploadArea.style.backgroundColor = '#f8f9ff'; // Reset background on drag leave
+});
+
+uploadArea.addEventListener('drop', (e) => {
+    e.preventDefault();
+    uploadArea.style.backgroundColor = '#f8f9ff'; // Reset background on drop
+    handleFiles(e.dataTransfer.files); // Handle dropped files
+});
+
+const fileInput2 = document.getElementById('fileInput2');
+const uploadArea2 = document.getElementById('uploadArea2');
+const previewContainer2 = document.getElementById('previewContainer2');
+const browseLink2 = document.getElementById('browseLink2');
+
+
+// handle second file input and preview container 2 
+
+function handleFiles2(files) {
+    // Clear previous previews
+    previewContainer2.innerHTML = '';
+
+    // Loop through each selected file
+    Array.from(files).forEach((file) => {
+        if (file.type.startsWith('image/')) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                // Create an image element for preview
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                previewContainer2.appendChild(img);
+            };
+            reader.readAsDataURL(file);
+        } else {
+            alert('Only image files are allowed!');
+        }
+    });
+}
+
+// Handle file input change
+fileInput2.addEventListener('change', (e) => {
+    handleFiles2(e.target.files);
+});
+
+// Trigger file input on "browse" link click
+
+browseLink2.addEventListener('click', (e) => {
+    console.log('clicked');
+    e.preventDefault();
+    fileInput2.click();
+});
+
+// Drag-and-drop functionality
+uploadArea2.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    uploadArea2.style.backgroundColor = '#eef4ff'; // Change background on drag over
+});
+
+uploadArea2.addEventListener('dragleave', () => {
+
+    uploadArea2.style.backgroundColor = '#f8f9ff'; // Reset background on drag leave
+});
+
+uploadArea2.addEventListener('drop', (e) => {
+    e.preventDefault();
+    uploadArea2.style.backgroundColor = '#f8f9ff'; // Reset background on drop
+    handleFiles2(e.dataTransfer.files); // Handle dropped files
+});
+
+
+
+
+ 
+
+
+    </script>
 </body>
 
 </html>
